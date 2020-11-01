@@ -1,0 +1,17 @@
+@model LUser
+
+<form class="border border-dark p-4" asp-action="Login" method="post">
+    <h2 class="text-center blockquote">Login</h2>
+
+    <div class="form-group">
+        <label asp-for="LEmail"></label>
+        <input asp-for="LEmail" value="s@b.com" class="form-control">
+        <span class="text-danger" asp-validation-for="LEmail" ></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LPassword"></label>
+        <input asp-for="LPassword" value="password"  class="form-control">
+        <span class="text-danger" asp-validation-for="LPassword" ></span>
+    </div>
+    <input class="btn btn-primary" type="submit" value="Login">
+</form>

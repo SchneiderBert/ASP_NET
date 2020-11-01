@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "Chat Room";
+}
+
+<div class="header d-flex justify-content-between mt-4 align-items-center mb-4">
+    <h3 id="pageHeader" class="display-4">Dojo Connect</h3>
+    <a class="ml-4" href="/">Logout</a>
+</div>
+
+<div class="row">
+    <div class="chat col-sm-5">
+        <h3 class="display-4">User @ViewBag.LoggedUser.Alias</h3>
+        <div class="chatLog form-control">
+            <h3 id="chatHeader">Chat Log:</h3>
+            <ul id="messagesList" class="list-group">
+                @foreach (Message m in ViewBag.ChatLog)
+                {
+                    if (m.UserId == @ViewBag.LoggedUser.UserId)
+                    {
+                        <li class="list-group-item mt-2 text-right">You Said: @m.MessageContent</li>
+                    }
+                    else
+                    {
+                        <li class="list-group-item mt-2">@m.Creator.Alias Says: @m.MessageContent</li>
+                    }
+                }
+            </ul>
+        </div>
+        <input value="@ViewBag.LoggedUser.Alias" type="hidden" id="userInput" />
+        <input value="@ViewBag.LoggedUser.UserId" type="hidden" id="userId" />
+
+        <div class="form-group">
+            <label for="messageInput">Message:</label>
+            <textarea name="messageInput" id="messageInput" class="form-control" cols="15" rows="10"></textarea>
+            <input type="button" class="btn btn-primary mt-2" id="sendButton" value="Send Message" />
+        </div>
+    </div>
+    <div class="col-sm-2"></div>
+    <div class="col-sm-5">
+        <p class="desc" class="lead text-justify">Hello, this is my Dojo Connect project. This was created to showcase
+            proof of concept of a Full Stack ASP.NET application while also being a cool way to stay in contact with my
+            class if I choose to deploy it.</p>
+        <div class="d-flex justify-content-end">
+        <small class="lead desc">Enjoy -Schneider Bertrand</small>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>
