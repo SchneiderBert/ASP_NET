@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\snite\\Documents\\CodingDojo\\C#\\Dojo_Connect\\Dojo_Connect.csproj",
+  "FilePath": "c:\\Users\\snite\\Desktop\\Coding\\ASP_NET\\Dojo_Connect\\Dojo_Connect.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,43 +14392,43 @@
   "RootNamespace": "Dojo_Connect",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\snite\\Documents\\CodingDojo\\C#\\Dojo_Connect\\Views\\Home\\DojoChat.cshtml",
+      "FilePath": "c:\\Users\\snite\\Desktop\\Coding\\ASP_NET\\Dojo_Connect\\Views\\Home\\DojoChat.cshtml",
       "TargetPath": "Views\\Home\\DojoChat.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\snite\\Documents\\CodingDojo\\C#\\Dojo_Connect\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\snite\\Documents\\CodingDojo\\C#\\Dojo_Connect\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\snite\\Documents\\CodingDojo\\C#\\Dojo_Connect\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\snite\\Documents\\CodingDojo\\C#\\Dojo_Connect\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\snite\\Documents\\CodingDojo\\C#\\Dojo_Connect\\Views\\Home\\_Login.cshtml",
+      "FilePath": "c:\\Users\\snite\\Desktop\\Coding\\ASP_NET\\Dojo_Connect\\Views\\Home\\_Login.cshtml",
       "TargetPath": "Views\\Home\\_Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\snite\\Documents\\CodingDojo\\C#\\Dojo_Connect\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\snite\\Desktop\\Coding\\ASP_NET\\Dojo_Connect\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\snite\\Documents\\CodingDojo\\C#\\Dojo_Connect\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\snite\\Desktop\\Coding\\ASP_NET\\Dojo_Connect\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\snite\\Desktop\\Coding\\ASP_NET\\Dojo_Connect\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\snite\\Desktop\\Coding\\ASP_NET\\Dojo_Connect\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\snite\\Desktop\\Coding\\ASP_NET\\Dojo_Connect\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\snite\\Desktop\\Coding\\ASP_NET\\Dojo_Connect\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],
